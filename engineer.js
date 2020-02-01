@@ -34,12 +34,10 @@ function employeePrompt() {
   
   };
 
-  class Engineer {
-    constructor(name, id, email, github) {
+  class Engineer extends Employee {
+    constructor(id, github) {
         this.role = "engineer";
-        this.name = name;
         this.id = id;
-        this.email = email;
         this.github = github;
     }
 }

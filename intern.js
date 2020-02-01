@@ -35,12 +35,10 @@ function employeePrompt() {
   
   };
 
-  class Intern {
-    constructor(name, id, email, school) {
+  class Intern extends Employee{
+    constructor(id, school) {
         this.role = "intern";
-        this.name = name;
         this.id = id;
-        this.email = email;
         this.school = school;
     }
 }

@@ -37,3 +37,18 @@ class Employee {
         this.email = email;
     }
 }
+
+function getName() {
+    
+}
+function getId() {
+    
+}
+function getEmail() {
+
+}
+function getRole() {
+
+}
+
+module.exports = Employee;

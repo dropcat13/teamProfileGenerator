@@ -3,6 +3,7 @@ const fs = require("fs");
 const util = require("util");
 const axios = require("axios");
 const html = require("./generateHTML");
+const jest = require ("jest");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 

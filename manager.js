@@ -4,6 +4,7 @@ const util = require("util");
 const axios = require("axios");
 const html = require("./generateHTML");
 const script = require("./script")
+const employee = require("./employee")
 
 function employeePrompt() {
     return inquirer.prompt([
@@ -34,12 +35,10 @@ function employeePrompt() {
   
   };
 
-  class Manager {
-    constructor(name, id, email, officeNumber) {
+  class Manager extends Employee {
+    constructor(id, officeNumber) {
         this.role = "manager";
-        this.name = name;
         this.id = id;
-        this.email = email;
         this.officeNumber = officeNumber
     }
 }
