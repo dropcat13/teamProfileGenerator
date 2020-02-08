@@ -7,9 +7,17 @@
 //     let template = fs.readFileSync
 // }
 
-// const renderIntern = 
+// const renderIntern = intern => {
+//     let template = fs.readFileSync
+// }
 
-// const renderEngineer
+// const renderEngineer = engineer => {
+//     let template = fs.readFileSync
+// }
+
+// const renderEmployee = employee => {
+//     let template = fs.readFileSync
+// }
 
 // const replacePlaceholders = (template, placeholder, value)
 //     const pattern = new RegExp("{{}})

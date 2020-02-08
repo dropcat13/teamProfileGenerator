@@ -2,8 +2,10 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 const axios = require("axios");
-const html = require("./generateHTML");
-const script = require("./script")
+const html = require("./htmlRenderer");
+const script = require("./script");
+var validator = require('validator');
+
 
 function employeePrompt() {
     return inquirer.prompt([
@@ -51,4 +53,7 @@ function getRole() {
 
 }
 
-module.exports = render;
+module.exports = { 
+    employeePrompt,
+    Employee
+};

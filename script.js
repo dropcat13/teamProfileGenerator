@@ -4,6 +4,11 @@ const util = require("util");
 const axios = require("axios");
 const html = require("./htmlRenderer");
 const jest = require ("jest");
+var validator = require('validator');
+const employee = require("./employee");
+const internPrompt = require("./intern");
+const managerPrompt = require("./manager");
+const engineerPrompt = require("./engineer");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -22,7 +27,7 @@ function typeOfUser() {
         console.info('Answer:', answers.role);
         
         if (answers.role === 'employee') {
-            employeePrompt();
+            employee.employeePrompt();
         } else if (answers.role === 'engineer') {
             engineerPrompt();
         } else if (answers.role === 'intern') {
@@ -33,5 +38,3 @@ function typeOfUser() {
         console.log("Please pick an acceptable role");
     });
 };
-
-module.exports = render;

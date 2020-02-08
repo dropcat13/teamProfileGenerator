@@ -2,10 +2,12 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 const axios = require("axios");
-const html = require("./generateHTML");
-const script = require("./script")
+const html = require("./htmlRenderer");
+const script = require("./script");
+var validator = require('validator');
+const employee = require("./employee");
 
-function employeePrompt() {
+function engineerPrompt() {
     return inquirer.prompt([
     {
         type: "input",
@@ -34,7 +36,7 @@ function employeePrompt() {
   
   };
 
-  class Engineer extends Employee {
+  class Engineer extends employee.Employee {
     constructor(id, github) {
         this.role = "engineer";
         this.id = id;
@@ -42,4 +44,4 @@ function employeePrompt() {
     }
 }
 
-module.exports = render;
+module.exports = engineerPrompt;
