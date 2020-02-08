@@ -42,3 +42,5 @@ function employeePrompt() {
         this.school = school;
     }
 }
+
+module.exports = render;

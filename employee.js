@@ -10,17 +10,17 @@ function employeePrompt() {
     {
         type: "input",
         name: "name",
-        message: "What is your name?"
+        message: "What is their name?"
       },
       {
           type: "input",
           name: "id",
-          message: "What is your ID number?"
+          message: "What is their ID number?"
       },
       {
           type: "input",
           name: "email",
-          message: "Please enter your email:"
+          message: "Please enter their email:"
       },
   ])
   .then(answers => {
@@ -51,4 +51,4 @@ function getRole() {
 
 }
 
-module.exports = Employee;
+module.exports = render;

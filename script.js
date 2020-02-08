@@ -2,17 +2,19 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 const axios = require("axios");
-const html = require("./generateHTML");
+const html = require("./htmlRenderer");
 const jest = require ("jest");
 
 const writeFileAsync = util.promisify(fs.writeFile);
+
+typeOfUser()
 
 function typeOfUser() {
   return inquirer.prompt([
     {
         type: 'list',
         name: 'role',
-        message: 'What role do you have?',
+        message: 'What role do you want to enter?',
         choices: ['employee', 'engineer', 'intern', 'manager'],
     },
   ]) 
@@ -31,3 +33,5 @@ function typeOfUser() {
         console.log("Please pick an acceptable role");
     });
 };
+
+module.exports = render;

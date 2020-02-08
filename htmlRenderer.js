@@ -1,17 +1,17 @@
-const html = [];
+// const html = [];
 
-html.push(employees
-    )
+// html.push(employees
+//     )
 
-const renderManager = manager => {
-    let template = fs.readFileSync
-}
+// const renderManager = manager => {
+//     let template = fs.readFileSync
+// }
 
-const renderIntern = 
+// const renderIntern = 
 
-const renderEngineer
+// const renderEngineer
 
-const replacePlaceholders = (template, placeholder, value)
-    const pattern = new RegExp("{{}})
+// const replacePlaceholders = (template, placeholder, value)
+//     const pattern = new RegExp("{{}})
 
-module.exports = render;
+// module.exports = render;

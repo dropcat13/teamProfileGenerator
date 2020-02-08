@@ -1,0 +1,25 @@
+{
+  "name": "homework10-teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "## User Story As a manager I want to generate a webpage that displays my team's basic info so that I have quick access to emails and GitHub profiles ```",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.0.4",
+    "jest": "^25.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dropcat13/homework10-teamProfileGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dropcat13/homework10-teamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/dropcat13/homework10-teamProfileGenerator#readme"
+}
