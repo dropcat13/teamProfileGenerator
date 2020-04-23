@@ -4,9 +4,6 @@
 As a manager
 I want to generate a webpage that displays my team's basic info so that I have quick access to emails and GitHub profiles.
 
-## pdf example image
-[screenshot] (image)
-
 # Screenshot of website
 ![image](https://user-images.githubusercontent.com/12642091/80110496-bd68eb80-854c-11ea-80a3-6e0e06953a75.png)
 
