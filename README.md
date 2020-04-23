@@ -7,8 +7,8 @@ I want to generate a webpage that displays my team's basic info so that I have q
 ## pdf example image
 [screenshot] (image)
 
-# Link to screenshot of website
-[screenshot] (image)
+# Screenshot of website
+![image](https://user-images.githubusercontent.com/12642091/80110496-bd68eb80-854c-11ea-80a3-6e0e06953a75.png)
 
 # Technologies used
 This project used node.js with various packages including inquirer and axios. To make the webpage and pdf it used HTML, CSS (using bootstrap for layout and mobile readiness), javascript and jQuery. It also utilized a 3rd party API from github.
