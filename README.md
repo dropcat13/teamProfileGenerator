@@ -1,4 +1,4 @@
-# homework10-teamProfileGenerator
+# teamProfileGenerator
 
 ## User Story
 As a manager
